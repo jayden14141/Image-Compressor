@@ -1,0 +1,8 @@
+{
+	"id": "2.4.1",
+	"date": "2019-12-22",
+	"flavor": "skriptlang-github",
+	"updateCheckerType": "ch.njol.skript.update.GithubChecker",
+	"updateSource": "https://api.github.com/repos/SkriptLang/Skript/releases",
+	"downloadSource": null
+}

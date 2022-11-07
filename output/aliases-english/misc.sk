@@ -1,0 +1,451 @@
+# Uncategorized items
+
+mining:
+	coal = minecraft:coal
+	diamond¦s = minecraft:diamond
+	iron ingot¦s = minecraft:iron_ingot
+	gold[en] ingot¦s = minecraft:gold_ingot
+	any ingot¦s = iron ingot, gold ingot
+	gold[en] nugget¦s = minecraft:gold_nugget
+	emerald¦s = minecraft:emerald
+	flint¦s = minecraft:flint
+
+
+exploration update:
+	minecraft version = 1.11 or newer
+	shulker shell¦s = minecraft:shulker_shell
+exploration update 2:
+	minecraft version = 1.11.1 or newer
+	iron nugget¦s = minecraft:iron_nugget
+	any nugget¦s = gold nugget, iron nugget
+
+old items:
+	minecraft version = 1.12.2 or older
+	charcoal = minecraft:coal {Damage:1}
+	sugar cane item¦s = minecraft:reeds
+	sugar cane¦s = minecraft:sugar_cane_block
+	popped chorus fruit¦s = minecraft:chorus_fruit_popped
+	nether brick item¦s = minecraft:netherbrick
+
+new items:
+	minecraft version = 1.13 or newer
+	charcoal = minecraft:charcoal
+	sugar cane¦s = minecraft:sugar_cane
+	conduit¦s = minecraft:conduit
+	[turtle [shell]] scute¦s = minecraft:scute
+	kelp = minecraft:kelp
+	nautilus shell¦s = minecraft:nautilus_shell
+	heart[s] of the sea = minecraft:heart_of_the_sea
+	popped chorus fruit¦s = minecraft:popped_chorus_fruit
+	nether brick item¦s = minecraft:nether_brick
+
+	{hatch stage}:
+		{default} = -
+		uncracked = -[hatch=0]
+		cracked = -[hatch=1]
+		almost hatched = -[hatch=2]
+	{egg count}:
+		{default} = -
+		(one|singular) = -[eggs=1]
+		(pair of|[pile of] two) = -[eggs=2]
+		(trio of|[pile of] three) = -[eggs=3]
+		[pile of] four = -[eggs=4]
+	{egg count} {hatch stage} turtle egg¦s = minecraft:turtle_egg
+
+valuables:
+	{beacon levels}:
+		{default} = -
+		(level (0|one)|unleveled) = - {Levels:0}
+		(level (1|one)) = - {Levels:1}
+		(level (2|two)) = - {Levels:2}
+		(level (3|three)) = - {Levels:3}
+		(level (4|four)|complete[d]) = - {Levels:4}
+	{beacon levels} beacon¦s = minecraft:beacon
+
+random items:
+	stick¦s = minecraft:stick
+	bowl¦s = minecraft:bowl
+	string¦s = minecraft:string
+	feather¦s = minecraft:feather
+	gunpowder = minecraft:gunpowder
+	snowball¦s = minecraft:snowball[relatedEntity=snowball]
+	leather = minecraft:leather
+	clay [ball¦s] = minecraft:clay_ball
+	[clay] brick [item]¦s = minecraft:brick
+	(piece[s] of paper|paper¦s) = minecraft:paper
+	slime[ ]ball¦s = minecraft:slime_ball
+	egg¦s = minecraft:egg[relatedEntity=egg]
+	glowstone dust = minecraft:glowstone_dust
+	bone¦s = minecraft:bone
+	sugar = minecraft:sugar
+	ender pearl¦s = minecraft:ender_pearl[relatedEntity=ender pearl]
+	blaze rod¦s = minecraft:blaze_rod
+	(ender eye¦s|eye[s] of ender) = minecraft:ender_eye
+	(bottle[s] o' enchanting|xp bottle¦s|experience bottle¦s) = minecraft:experience_bottle[relatedEntity=xp bottle]
+	fire charge¦s = minecraft:fire_charge
+	[empty] map = minecraft:map
+	filled map = minecraft:filled_map
+	nether star¦s = minecraft:nether_star
+	[nether] quartz = minecraft:quartz
+	prismarine shard¦s = minecraft:prismarine_shard
+	prismarine crystal¦s = minecraft:prismarine_crystals
+	rabbit hide¦s = minecraft:rabbit_hide
+	enchanted book¦s = minecraft:enchanted_book
+
+pre-flattening random items:
+	minecraft version = 1.12.2 or older
+	nether wart item¦s = minecraft:nether_wart
+	nether wart [plant]¦s = minecraft:nether_warts
+
+post-flattening random items:
+	minecraft version = 1.13 or newer
+	nether wart [item]¦s = minecraft:nether_wart
+
+
+books:
+	book¦s = minecraft:book
+	(book and quill|writable book)¦s = minecraft:writable_book
+	written book¦s = minecraft:written_book
+	book with text = writable book, written book
+	enchanted book = minecraft:enchanted_book
+	any book¦s = book, book with text
+
+fireworks:
+	{firework types}:
+		(0|zero|immediate) = - {Fireworks:{Flight:0}}
+		(1|one|short) = - {Fireworks:{Flight:1}}
+		(2|two|medium) = - {Fireworks:{Flight:2}}
+		(3|three|long) = - {Fireworks:{Flight:3}}
+
+fireworks before flattening:
+	minecraft version = 1.12.2 or older
+	[(flight|duration|flight duration) {firework types} ] firework [rocket]¦s = minecraft:fireworks[relatedEntity=firework rocket]
+	firework (star|charge)¦s = minecraft:firework_charge
+
+fireworks after flattening:
+	minecraft version = 1.13 or newer
+	[(flight|duration|flight duration) {firework types} ] firework [rocket]¦s = minecraft:firework_rocket[relatedEntity=firework rocket]
+	firework (star|charge)¦s = minecraft:firework_star
+
+plants:
+	pumpkin seed¦s = minecraft:pumpkin_seeds
+	melon seed¦s = minecraft:melon_seeds
+	[wheat] seed¦s = minecraft:wheat_seeds
+	beetroot seed¦s = minecraft:beetroot_seeds
+	any seed¦s = pumpkin seeds, melon seeds, wheat seeds
+
+	wheat [item¦s] = minecraft:wheat
+	chorus fruit¦s = minecraft:chorus_fruit
+
+unchanged buckets:
+	[empty] bucket¦s = minecraft:bucket
+	water bucket¦s = minecraft:water_bucket
+	lava bucket¦s = minecraft:lava_bucket
+	milk [bucket¦s] = minecraft:milk_bucket
+	any bucket = empty bucket, water bucket, lava bucket, milk
+
+new buckets:
+	minecraft version = 1.13 or newer
+	tropical fish bucket¦s = minecraft:tropical_fish_bucket
+	cod bucket¦s = minecraft:cod_bucket
+	pufferfish bucket¦s = minecraft:pufferfish_bucket
+	salmon bucket¦s = minecraft:salmon_bucket
+	any bucket = empty bucket, water bucket, lava bucket, milk, tropical fish bucket, cod bucket, pufferfish bucket, salmon bucket
+	any fish bucket = tropical fish bucket, cod bucket, pufferfish bucket, salmon bucket
+
+new music discs:
+	minecraft version = 1.13 or newer
+	[music] (disc|record) 11 = minecraft:music_disc_11
+	[music] (disc|record) 13 = minecraft:music_disc_13
+	[music] (disc|record) blocks = minecraft:music_disc_blocks
+	[music] (disc|record) cat = minecraft:music_disc_cat
+	[music] (disc|record) chirp = minecraft:music_disc_chirp
+	[music] (disc|record) far = minecraft:music_disc_far
+	[music] (disc|record) mall = minecraft:music_disc_mall
+	[music] (disc|record) mellohi = minecraft:music_disc_mellohi
+	[music] (disc|record) stal = minecraft:music_disc_stal
+	[music] (disc|record) strad = minecraft:music_disc_strad
+	[music] (disc|record) wait = minecraft:music_disc_wait
+	[music] (disc|record) ward = minecraft:music_disc_ward
+	[any] [music] (disc|record) = music disc 11, music disc 13, music disc blocks, music disc cat, music disc chirp, music disc far, music disc mall, music disc mellohi, music disc stal, music disc strad, music disc wait, music disc ward
+
+old music discs:
+	minecraft version = 1.12.2 or older
+	[music] (disc|record) 11 = minecraft:record_11
+	[music] (disc|record) 13 = minecraft:record_13
+	[music] (disc|record) blocks = minecraft:record_blocks
+	[music] (disc|record) cat = minecraft:record_cat
+	[music] (disc|record) chirp = minecraft:record_chirp
+	[music] (disc|record) far = minecraft:record_far
+	[music] (disc|record) mall = minecraft:record_mall
+	[music] (disc|record) mellohi = minecraft:record_mellohi
+	[music] (disc|record) stal = minecraft:record_stal
+	[music] (disc|record) strad = minecraft:record_strad
+	[music] (disc|record) wait = minecraft:record_wait
+	[music] (disc|record) ward = minecraft:record_ward
+	any [music] (disc|record) = music disc 11, music disc 13, music disc blocks, music disc cat, music disc chirp, music disc far, music disc mall, music disc mellohi, music disc stal, music disc strad, music disc wait, music disc ward
+
+dyes before flattening:
+	minecraft version = 1.12.2 or older
+	(ink sac|black dye)¦s = minecraft:dye {Damage:0}
+	(rose red|red dye)¦s =  minecraft:dye {Damage:1}
+	(cactus green|green dye)¦s = minecraft:dye {Damage:2}
+	(cocoa bean|brown dye)¦s = minecraft:dye {Damage:3}
+	(lapis [lazuli]|blue dye)¦s = minecraft:dye {Damage:4}
+	purple dye¦s = minecraft:dye {Damage:5}
+	cyan dye¦s = minecraft:dye {Damage:6}
+	light gr(a|e)y dye¦s = minecraft:dye {Damage:7}
+	gr(a|e)y dye¦s = minecraft:dye {Damage:8}
+	pink dye¦s = minecraft:dye {Damage:9}
+	lime dye¦s = minecraft:dye {Damage:10}
+	(dandelion yellow|yellow dye)¦s = minecraft:dye {Damage:11}
+	light blue dye¦s = minecraft:dye {Damage:12}
+	magenta dye¦s = minecraft:dye {Damage:13}
+	orange dye¦s = minecraft:dye {Damage:14}
+	(bone[ ]meal|white dye)¦s = minecraft:dye {Damage:15}
+	[any] dye = black dye, red dye, green dye, brown dye, blue dye, purple dye, cyan dye, light gray dye, gray dye, pink dye, lime dye, yellow dye, light blue dye, magenta dye, orange dye, white dye
+
+aquatic update dyes:
+	minecraft version = 1.13 or newer
+	purple dye¦s = minecraft:purple_dye
+	cyan dye¦s = minecraft:cyan_dye
+	light gr(a|e)y dye¦s = minecraft:light_gray_dye
+	gr(a|e)y dye¦s = minecraft:gray_dye
+	pink dye¦s = minecraft:pink_dye
+	(lime|light green) dye¦s = minecraft:lime_dye
+	light blue dye¦s = minecraft:light_blue_dye
+	magenta dye¦s = minecraft:magenta_dye
+	orange dye¦s = minecraft:orange_dye
+
+	minecraft version = 1.13 to 1.13.2
+	(bone[ ]meal|white dye)¦s = minecraft:bone_meal
+	(lapis [lazuli]|blue dye)¦s = minecraft:lapis_lazuli
+	(ink sac|black dye)¦s = minecraft:ink_sac
+	(cocoa bean|brown dye)¦s = minecraft:cocoa_beans
+	(rose red|red dye)¦s = minecraft:rose_red
+	(cactus green|green dye)¦s = minecraft:cactus_green
+	(dandelion yellow|yellow dye)¦s = minecraft:dandelion_yellow
+	[any] dye = black dye, red dye, green dye, brown dye, blue dye, purple dye, cyan dye, light gray dye, gray dye, pink dye, lime dye, yellow dye, light blue dye, magenta dye, orange dye, white dye
+
+
+village and pillage update dyes:
+	minecraft version = 1.14 or newer
+	black dye¦s = minecraft:black_dye
+	brown dye¦s = minecraft:brown_dye
+	blue dye¦s = minecraft:blue_dye
+	white dye¦s = minecraft:white_dye
+	red dye¦s = minecraft:red_dye
+	green dye¦s = minecraft:green_dye
+	yellow dye¦s = minecraft:yellow_dye
+	[any] dye = black dye, red dye, green dye, brown dye, blue dye, purple dye, cyan dye, light gray dye, gray dye, pink dye, lime dye, yellow dye, light blue dye, magenta dye, orange dye, white dye
+
+village and pillage update (removed from dyes):
+	minecraft version = 1.14 or newer
+	bone[ ]meal¦s = minecraft:bone_meal
+	lapis [lazuli]¦s = minecraft:lapis_lazuli
+	ink sac¦s = minecraft:ink_sac
+	cocoa bean¦s = minecraft:cocoa_beans
+
+# SPAWN EGGS: Their format and the entity tags changed a lot throughout versions so this section is somewhat large
+
+spawn eggs after flattening:
+	minecraft version = 1.13 or newer
+	(bat [spawn] egg|spawn bat)¦s = minecraft:bat_spawn_egg
+	(blaze [spawn] egg|spawn blaze)¦s = minecraft:blaze_spawn_egg
+	(cave spider [spawn] egg|spawn cave spider)¦s = minecraft:cave_spider_spawn_egg
+	(chicken [spawn] egg|spawn chicken)¦s = minecraft:chicken_spawn_egg
+	(cod [spawn] egg|spawn cod)¦s = minecraft:cod_spawn_egg
+	(cow [spawn] egg|spawn cow)¦s = minecraft:cow_spawn_egg
+	(creeper [spawn] egg|spawn creeper)¦s = minecraft:creeper_spawn_egg
+	(dolphin [spawn] egg|spawn dolphin)¦s = minecraft:dolphin_spawn_egg
+	(donkey [spawn] egg|spawn donkey)¦s = minecraft:donkey_spawn_egg
+	(drowned [spawn] egg|spawn drowned)¦s = minecraft:drowned_spawn_egg
+	(elder guardian [spawn] egg|spawn elder guardian)¦s = minecraft:elder_guardian_spawn_egg
+	(enderman [spawn] egg|spawn enderman)¦s = minecraft:enderman_spawn_egg
+	(endermite [spawn] egg|spawn endermite)¦s = minecraft:endermite_spawn_egg
+	(evoker [spawn] egg|spawn evoker)¦s = minecraft:evoker_spawn_egg
+	(ghast [spawn] egg|spawn ghast)¦s = minecraft:ghast_spawn_egg
+	(guardian [spawn] egg|spawn guardian)¦s = minecraft:guardian_spawn_egg
+	(horse [spawn] egg|spawn horse)¦s = minecraft:horse_spawn_egg
+	(husk [spawn] egg|spawn husk)¦s = minecraft:husk_spawn_egg
+	(llama [spawn] egg|spawn llama)¦s = minecraft:llama_spawn_egg
+	(magma cube [spawn] egg|spawn magma cube)¦s = minecraft:magma_cube_spawn_egg
+	((mooshroom|mushroom cow) [spawn] egg|spawn (mooshroom|mushroom cow))¦s = minecraft:mooshroom_spawn_egg
+	(mule [spawn] egg|spawn mule)¦s = minecraft:mule_spawn_egg
+	(ocelot [spawn] egg|spawn ocelot)¦s = minecraft:ocelot_spawn_egg
+	(parrot [spawn] egg|spawn parrot)¦s = minecraft:parrot_spawn_egg
+	(phantom [spawn] egg|spawn phantom)¦s = minecraft:phantom_spawn_egg
+	(pig [spawn] egg|spawn pig)¦s = minecraft:pig_spawn_egg
+	(polar bear [spawn] egg|spawn polar bear)¦s = minecraft:polar_bear_spawn_egg
+	(pufferfish [spawn] egg|spawn pufferfish)¦s = minecraft:pufferfish_spawn_egg
+	(rabbit [spawn] egg|spawn rabbit)¦s = minecraft:rabbit_spawn_egg
+	(salmon [spawn] egg|spawn salmon)¦s = minecraft:salmon_spawn_egg
+	(sheep [spawn] egg|spawn sheep)¦s = minecraft:sheep_spawn_egg
+	(shulker [spawn] egg|spawn shulker)¦s = minecraft:shulker_spawn_egg
+	(silverfish [spawn] egg|spawn silverfish)¦s = minecraft:silverfish_spawn_egg
+	(skeleton [spawn] egg|spawn skeleton)¦s = minecraft:skeleton_spawn_egg
+	(skelet(on|al) horse [spawn] egg|spawn skelet(on|al) horse)¦s = minecraft:skeleton_horse_spawn_egg
+	(slime [spawn] egg|spawn slime)¦s = minecraft:slime_spawn_egg
+	(spider [spawn] egg|spawn spider)¦s = minecraft:spider_spawn_egg
+	(squid [spawn] egg|spawn squid)¦s = minecraft:squid_spawn_egg
+	(stray [spawn] egg|spawn stray)¦s = minecraft:stray_spawn_egg
+	(tropical fish [spawn] egg|spawn tropical fish)¦s = minecraft:tropical_fish_spawn_egg
+	(turtle spawn egg|spawn turtle)¦s = minecraft:turtle_spawn_egg
+	(vex [spawn] egg|spawn vex)¦s = minecraft:vex_spawn_egg
+	(villager [spawn] egg|spawn villager)¦s = minecraft:villager_spawn_egg
+	(vindicator [spawn] egg|spawn vindicator)¦s = minecraft:vindicator_spawn_egg
+	(witch [spawn] egg|spawn witch)¦s = minecraft:witch_spawn_egg
+	(wither skeleton [spawn] egg|spawn wither skeleton)¦s = minecraft:wither_skeleton_spawn_egg
+	((wolf|dog) [spawn] egg|spawn (wolf|dog))¦s = minecraft:wolf_spawn_egg
+	(zombie [spawn] egg|spawn zombie)¦s = minecraft:zombie_spawn_egg
+	(zombie horse [spawn] egg|spawn zombie horse)¦s = minecraft:zombie_horse_spawn_egg
+	(zombie pig[man] [spawn] egg|spawn zombie pig[man])¦s = minecraft:zombie_pigman_spawn_egg
+	(zombie villager [spawn] egg|spawn zombie villager)¦s = minecraft:zombie_villager_spawn_egg
+	[any] spawn egg¦s = spawn bat, spawn blaze, spawn cave spider, spawn chicken, spawn cod, spawn cow, spawn creeper, spawn dolphin, spawn donkey, spawn drowned, spawn elder guardian, spawn enderman, spawn endermite, spawn evoker, spawn ghast, spawn guardian, spawn horse, spawn husk, spawn llama, spawn magma cube, spawn mooshroom, spawn mule, spawn ocelot, spawn parrot, spawn phantom, spawn pig, spawn polar bear, spawn pufferfish, spawn rabbit, spawn salmon, spawn sheep, spawn shulker, spawn silverfish, spawn skeleton, spawn skeleton horse, spawn slime, spawn spider, spawn squid, spawn stray, spawn tropical fish, spawn turtle, spawn vex, spawn villager, spawn vindicator, spawn witch, spawn wither skeleton, spawn wolf, spawn zombie, spawn zombie horse, spawn zombie pigman, spawn zombie villager
+
+village and pillage spawn eggs:
+	minecraft version = 1.14 or newer
+	(pillager [spawn] egg|spawn pillager)¦s = minecraft:pillager_spawn_egg
+	(ravager [spawn] egg|spawn ravager)¦s = minecraft:ravager_spawn_egg
+	(wandering trader [spawn] egg|spawn wandering trader)¦s = minecraft:wandering_trader_spawn_egg
+	(trader llama [spawn] egg|spawn trader llama)¦s = minecraft:trader_llama_spawn_egg
+	(cat [spawn] egg|spawn cat)¦s = minecraft:cat_spawn_egg #Cats are now a seperate mob from ocelots
+	(fox [spawn] egg|spawn fox)¦s = minecraft:fox_spawn_egg
+	(panda [spawn] egg|spawn panda)¦s = minecraft:panda_spawn_egg
+	[any] spawn egg¦s = spawn bat, spawn blaze, spawn cave spider, spawn chicken, spawn cod, spawn cow, spawn creeper, spawn dolphin, spawn donkey, spawn drowned, spawn elder guardian, spawn enderman, spawn endermite, spawn evoker, spawn ghast, spawn guardian, spawn horse, spawn husk, spawn llama, spawn magma cube, spawn mooshroom, spawn mule, spawn ocelot, spawn parrot, spawn phantom, spawn pig, spawn polar bear, spawn pufferfish, spawn rabbit, spawn salmon, spawn sheep, spawn shulker, spawn silverfish, spawn skeleton, spawn skeleton horse, spawn slime, spawn spider, spawn squid, spawn stray, spawn tropical fish, spawn turtle, spawn vex, spawn villager, spawn vindicator, spawn witch, spawn wither skeleton, spawn wolf, spawn zombie, spawn zombie horse, spawn zombie pigman, spawn zombie villager, spawn pillager, spawn ravager, spawn wandering trader, spawn trader llama, spawn cat, spawn fox, spawn panda
+
+buzzy bee spawn eggs:
+	minecraft version = 1.15 or newer
+	(bee [spawn] egg|spawn bee)¦s = minecraft:bee_spawn_egg
+	[any] spawn egg¦s = spawn bat, spawn blaze, spawn cave spider, spawn chicken, spawn cod, spawn cow, spawn creeper, spawn dolphin, spawn donkey, spawn drowned, spawn elder guardian, spawn enderman, spawn endermite, spawn evoker, spawn ghast, spawn guardian, spawn horse, spawn husk, spawn llama, spawn magma cube, spawn mooshroom, spawn mule, spawn ocelot, spawn parrot, spawn phantom, spawn pig, spawn polar bear, spawn pufferfish, spawn rabbit, spawn salmon, spawn sheep, spawn shulker, spawn silverfish, spawn skeleton, spawn skeleton horse, spawn slime, spawn spider, spawn squid, spawn stray, spawn tropical fish, spawn turtle, spawn vex, spawn villager, spawn vindicator, spawn witch, spawn wither skeleton, spawn wolf, spawn zombie, spawn zombie horse, spawn zombie pigman, spawn zombie villager, spawn pillager, spawn ravager, spawn wandering trader, spawn trader llama, spawn cat, spawn fox, spawn panda, spawn bee
+
+# These are for mobs that have existed since at least 1.8 and these IDs remained valid up through 1.12
+spawn eggs before flattening:
+	minecraft version = 1.12.2 or older
+	(bat [spawn] egg|spawn bat)¦s = minecraft:spawn_egg {Damage:65}
+	(blaze [spawn] egg|spawn blaze)¦s = minecraft:spawn_egg {Damage:61}
+	(cave spider [spawn] egg|spawn cave spider)¦s = minecraft:spawn_egg {Damage:59}
+	(chicken [spawn] egg|spawn chicken)¦s = minecraft:spawn_egg {Damage:93}
+	(cow [spawn] egg|spawn cow)¦s = minecraft:spawn_egg {Damage:92}
+	(creeper [spawn] egg|spawn creeper)¦s = minecraft:spawn_egg {Damage:50}
+	(enderman [spawn] egg|spawn enderman)¦s = minecraft:spawn_egg {Damage:58}
+	(endermite [spawn] egg|spawn endermite)¦s = minecraft:spawn_egg {Damage:67}
+	(ghast [spawn] egg|spawn ghast)¦s = minecraft:spawn_egg {Damage:56}
+	(guardian [spawn] egg|spawn guardian)¦s = minecraft:spawn_egg {Damage:68}
+	(horse [spawn] egg|spawn horse)¦s = minecraft:spawn_egg {Damage:100}
+	(magma cube [spawn] egg|spawn magma cube)¦s = minecraft:spawn_egg {Damage:62}
+	((mooshroom|mushroom cow) [spawn] egg|spawn (mooshroom|mushroom cow))¦s = minecraft:spawn_egg {Damage:96}
+	(ocelot [spawn] egg|spawn ocelot)¦s = minecraft:spawn_egg {Damage:98}
+	(pig [spawn] egg|spawn pig)¦s = minecraft:spawn_egg {Damage:90}
+	(rabbit [spawn] egg|spawn rabbit)¦s = minecraft:spawn_egg {Damage:101}
+	(sheep [spawn] egg|spawn sheep)¦s = minecraft:spawn_egg {Damage:91}
+	(silverfish [spawn] egg|spawn silverfish)¦s = minecraft:spawn_egg {Damage:60}
+	(skeleton [spawn] egg|spawn skeleton)¦s = minecraft:spawn_egg {Damage:51}
+	(slime [spawn] egg|spawn slime)¦s = minecraft:spawn_egg {Damage:55}
+	(spider [spawn] egg|spawn spider)¦s = minecraft:spawn_egg {Damage:52}
+	(squid [spawn] egg|spawn squid)¦s = minecraft:spawn_egg {Damage:94}
+	(villager [spawn] egg|spawn villager)¦s = minecraft:spawn_egg {Damage:120}
+	(witch [spawn] egg|spawn witch)¦s = minecraft:spawn_egg {Damage:66}
+	((wolf|dog) [spawn] egg|spawn (wolf|dog))¦s = minecraft:spawn_egg {Damage:95}
+	(zombie [spawn] egg|spawn zombie)¦s = minecraft:spawn_egg {Damage:54}
+	(zombie pig[man] [spawn] egg|spawn zombie pig[man])¦s = minecraft:spawn_egg {Damage:57}
+	[any] spawn egg¦s = spawn bat, spawn blaze, spawn cave spider, spawn chicken, spawn cow, spawn creeper, spawn enderman, spawn endermite, spawn ghast, spawn guardian, spawn horse, spawn magma cube, spawn mooshroom, spawn ocelot, spawn pig, spawn rabbit, spawn sheep, spawn silverfish, spawn skeleton, spawn slime, spawn spider, spawn squid, spawn villager, spawn witch, spawn wolf, spawn zombie, spawn zombie pigman
+
+world of color update spawn eggs:
+	minecraft version = 1.12 to 1.12.2
+	(donkey [spawn] egg|spawn donkey)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:donkey"}}
+	(elder guardian [spawn] egg|spawn elder guardian)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:elder_guardian"}}
+	(evoker [spawn] egg|spawn evoker)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:evocation_illager"}}
+	(husk [spawn] egg|spawn husk)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:husk"}}
+	(llama [spawn] egg|spawn llama)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:llama"}}
+	(mule [spawn] egg|spawn mule)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:mule"}}
+	(parrot [spawn] egg|spawn parrot)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:parrot"}}
+	(polar bear [spawn] egg|spawn polar bear)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:polar_bear"}}
+	(shulker [spawn] egg|spawn shulker)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:shulker"}}
+	(skelet(on|al) horse [spawn] egg|spawn skelet(on|al) horse)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:skeleton_horse"}}
+	(stray [spawn] egg|spawn stray)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:stray"}}
+	(vex [spawn] egg|spawn vex)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:vex"}}
+	(vindicator [spawn] egg|spawn vindicator)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:vindication_illager"}}
+	(wither skeleton [spawn] egg|spawn wither skeleton)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:wither_skeleton"}}
+	(zombie horse [spawn] egg|spawn zombie horse)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:zombie_horse"}}
+	(zombie villager [spawn] egg|spawn zombie villager)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:zombie_villager"}}
+	[any] spawn egg¦s = spawn bat, spawn blaze, spawn cave spider, spawn chicken, spawn cow, spawn creeper, spawn enderman, spawn endermite, spawn ghast, spawn guardian, spawn horse, spawn magma cube, spawn mooshroom, spawn ocelot, spawn pig, spawn rabbit, spawn sheep, spawn silverfish, spawn skeleton, spawn slime, spawn spider, spawn squid, spawn villager, spawn witch, spawn wolf, spawn zombie, spawn zombie pigman, spawn shulker, spawn polar bear, spawn donkey, spawn elder guardian, spawn evoker, spawn husk, spawn llama, spawn mule, spawn polar bear, spawn shulker, spawn skeleton horse, spawn stray, spawn vex, spawn vindicator, spawn wither skeleton, spawn zombie horse, spawn zombie villager, spawn parrot
+
+exploration update spawn eggs:
+	minecraft version = 1.11 to 1.11.2
+	(donkey [spawn] egg|spawn donkey)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:donkey"}}
+	(elder guardian [spawn] egg|spawn elder guardian)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:elder_guardian"}}
+	(evoker [spawn] egg|spawn evoker)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:evocation_illager"}}
+	(husk [spawn] egg|spawn husk)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:husk"}}
+	(llama [spawn] egg|spawn llama)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:llama"}}
+	(mule [spawn] egg|spawn mule)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:mule"}}
+	(polar bear [spawn] egg|spawn polar bear)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:polar_bear"}}
+	(shulker [spawn] egg|spawn shulker)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:shulker"}}
+	(skelet(on|al) horse [spawn] egg|spawn skelet(on|al) horse)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:skeleton_horse"}}
+	(stray [spawn] egg|spawn stray)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:stray"}}
+	(vex [spawn] egg|spawn vex)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:vex"}}
+	(vindicator [spawn] egg|spawn vindicator)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:vindication_illager"}}
+	(wither skeleton [spawn] egg|spawn wither skeleton)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:wither_skeleton"}}
+	(zombie horse [spawn] egg|spawn zombie horse)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:zombie_horse"}}
+	(zombie villager [spawn] egg|spawn zombie villager)¦s = minecraft:spawn_egg {EntityTag:{id:"minecraft:zombie_villager"}}
+	[any] spawn egg¦s = spawn bat, spawn blaze, spawn cave spider, spawn chicken, spawn cow, spawn creeper, spawn enderman, spawn endermite, spawn ghast, spawn guardian, spawn horse, spawn magma cube, spawn mooshroom, spawn ocelot, spawn pig, spawn rabbit, spawn sheep, spawn silverfish, spawn skeleton, spawn slime, spawn spider, spawn squid, spawn villager, spawn witch, spawn wolf, spawn zombie, spawn zombie pigman, spawn shulker, spawn polar bear, spawn donkey, spawn elder guardian, spawn evoker, spawn husk, spawn llama, spawn mule, spawn polar bear, spawn shulker, spawn skeleton horse, spawn stray, spawn vex, spawn vindicator, spawn wither skeleton, spawn zombie horse, spawn zombie villager
+
+frostburn update spawn eggs:
+	minecraft version = 1.10 to 1.10.2
+	(polar bear [spawn] egg|spawn polar bear)¦s = minecraft:spawn_egg {EntityTag:{id:PolarBear}}
+	[any] spawn egg¦s = spawn bat, spawn blaze, spawn cave spider, spawn chicken, spawn cow, spawn creeper, spawn enderman, spawn endermite, spawn ghast, spawn guardian, spawn horse, spawn magma cube, spawn mooshroom, spawn ocelot, spawn pig, spawn rabbit, spawn sheep, spawn silverfish, spawn skeleton, spawn slime, spawn spider, spawn squid, spawn villager, spawn witch, spawn wolf, spawn zombie, spawn zombie pigman, spawn polar bear
+
+combat update spawn eggs:
+	minecraft version = 1.9 to 1.9.4
+	(shulker [spawn] egg|spawn shulker)¦s = minecraft:spawn_egg {EntityTag:{id:Shulker}}
+	[any] spawn egg¦s = spawn bat, spawn blaze, spawn cave spider, spawn chicken, spawn cow, spawn creeper, spawn enderman, spawn endermite, spawn ghast, spawn guardian, spawn horse, spawn magma cube, spawn mooshroom, spawn ocelot, spawn pig, spawn rabbit, spawn sheep, spawn silverfish, spawn skeleton, spawn slime, spawn spider, spawn squid, spawn villager, spawn witch, spawn wolf, spawn zombie, spawn zombie pigman, spawn shulker
+
+village and pillage update:
+	minecraft version = 1.14 or newer
+	{composter stage}:
+		{default} = -
+		(empty|unfilled|level 0) = -[level=0]
+		level 1 = -[level=1]
+		level 2 = -[level=2]
+		level 3 = -[level=3]
+		(half full|half empty|level 4) = -[level=4]
+		level 5 = -[level=5]
+		level 6 = -[level=6]
+		level 7 = -[level=7]
+		(filled|level 8) = -[level=8]
+	{composter stage} composter¦s = minecraft:composter
+
+	{bamboo age}:
+		{default} = -
+		(thin|age 0) = -[age=0]
+		(thick|age 1) = -[age=1]
+	{bamboo leaves}:
+		{default} = -
+		leafless = -[leaves=none]
+		small leaved = -[leaves=small]
+		large leaved = -[leaves=large]
+	{bamboo stage}:
+		{default} = -
+		(stagnant|stage 0) = -[stage=0]
+		(growing|stage 1) = -[stage=1]
+	{bamboo age} {bamboo leaves} {bamboo stage} bamboo [plant] = minecraft:bamboo
+	bamboo = minecraft:bamboo
+
+	{berry age}:
+		{default} = -
+		young = -[age=0]
+		berryless = -[age=1]
+		(some berries|berried) = -[age=2]
+		(many berries|very berried) = -[age=3]
+	{berry age} sweet berry bush [plant] = minecraft:sweet_berry_bush
+
+	flower charge banner pattern¦s = minecraft:flower_banner_pattern
+	creeper charge banner pattern¦s = minecraft:creeper_banner_pattern
+	skull charge banner pattern¦s = minecraft:skull_banner_pattern
+	(mojang|thing) banner pattern¦s = minecraft:mojang_banner_pattern
+	globe banner pattern¦s = minecraft:globe_banner_pattern
+	[any] banner pattern¦s = flower charge banner pattern, creeper charge banner pattern, skull charge banner pattern, thing banner pattern, globe banner pattern
+
+buzzy bee update:
+	minecraft version = 1.15 or newer
+	honeycomb¦s = minecraft:honeycomb
